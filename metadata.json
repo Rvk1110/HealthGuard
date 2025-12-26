@@ -1,0 +1,7 @@
+{
+  "name": "HealthGuard: Privacy-First Health Records",
+  "description": "A secure, patient-controlled digital health record system featuring a smart consent engine, encrypted health vault, and AI-powered record optimization using Gemini.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
