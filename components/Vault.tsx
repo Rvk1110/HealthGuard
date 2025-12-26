@@ -79,7 +79,7 @@ const Vault: React.FC<VaultProps> = ({ records, onAddRecord }) => {
         
         <div className="max-w-3xl mx-auto space-y-4">
           <textarea 
-            className="w-full p-6 bg-[#FFF8E1] border-2 border-[#A8E6CF]/30 rounded-3xl focus:ring-8 focus:ring-[#A8E6CF]/10 focus:bg-white focus:border-[#004D40] focus:outline-none transition-all resize-none text-[#004D40] placeholder:text-slate-300 font-bold"
+            className="w-full p-6 bg-[#FFF8E1] border-2 border-[#A8E6CF]/30 rounded-3xl focus:ring-8 focus:ring-[#A8E6CF]/10 focus:bg-white focus:border-[#004D40] focus:outline-none transition-all resize-none text-black placeholder:text-slate-300 font-bold"
             rows={3}
             placeholder="Clinical observations or medication changes..."
             value={uploadText}
@@ -129,7 +129,7 @@ const Vault: React.FC<VaultProps> = ({ records, onAddRecord }) => {
             <input 
               type="text" 
               placeholder="Filter biology..." 
-              className="pl-10 pr-4 py-3 bg-white border-2 border-[#A8E6CF]/30 rounded-2xl text-sm text-[#004D40] focus:ring-8 focus:ring-[#A8E6CF]/10 outline-none w-48 sm:w-64 transition-all"
+              className="pl-10 pr-4 py-3 bg-white border-2 border-[#A8E6CF]/30 rounded-2xl text-sm text-black focus:ring-8 focus:ring-[#A8E6CF]/10 outline-none w-48 sm:w-64 transition-all font-bold"
               value={filter}
               onChange={(e) => setFilter(e.target.value)}
             />
